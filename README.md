@@ -24,9 +24,12 @@
 </ul>
 
 <h4>Kontak :</h4>
-<a href="https://wa.me/message/DLRPWPFGCTXOD1" target="_blank">WhatsApp</a>
-<a href="https://facebook.com/vatihdigitalprinting" target="_blank">Facebook</a>
-<a href="https://instagram.com/vatih2675" target="_blank">Instagram</a>
-<a href="https://tiktok.com/@vatih2675" target="_blank">Tiktok</a>
-<a href="https://lynk.id/vatihofficial" target="_blank">Lynk ID</a>
+<ul>
+  <li><a href="https://wa.me/message/DLRPWPFGCTXOD1" target="_blank">WhatsApp</a></li>
+  <li><a href="https://facebook.com/vatihdigitalprinting" target="_blank">Facebook</a></li>
+  <li><a href="https://instagram.com/vatih2675" target="_blank">Instagram</a></li>
+  <li><a href="https://tiktok.com/@vatih2675" target="_blank">Tiktok</a></li>
+  <li><a href="https://lynk.id/vatihofficial" target="_blank">Lynk ID</a></li>
+</ul>
+
 <img src="assets/img/Flyer.png"/>
