@@ -1,19 +1,69 @@
 <!doctype html>
 <html>
-  <head>
-      <meta charset="UTF-8" />
-      <title>VATIH Digital Printing</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-      <style>
-        ::-webkit-scrollbar {
-          display: none;
-          width: 0px;
-        }
-      </style>
-  </head>
-  <body>
-    <h1 class="text-9xl font-black text-center">VATIH</h1>
-    <h1 class="text-4xl font-bold text-orange-500 text-center">Digital Printing</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>VATIH Digital Printing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Poppins';
+                /* font-family: 'Montserrat'; */
+            }
+            ::-webkit-scrollbar {
+                display: none;
+                width: 0px;
+            }
+        </style>
+    </head>
+    <body class="w-full h-screen" style="background-image: url('assets/img/bg.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="flex flex-col justify-center items-center pt-3 w-full">
+            <img src="assets/img/Logo VDP.png" class="w-32" alt="Vatih Digital Printing">
+            <h1 class="text-center w-full sm:w-fit mx-auto mt-3 sm:mt-5 py-1 sm:py-3 px-3 sm:px-6 font-bold shadow-md bg-orange-400 text-base sm:text-3xl text-white">
+                Fotocopy - Cetak - Laminating
+            </h1>
+        </div>
+        <section class="flex justify-center items-center sm:px-10 py-2 flex-wrap sm:gap-3 overflow-auto" id="sectionLayanan"></section>
+        <section class="fixed bottom-0 py-3 w-full flex flex-col sm:flex-row justify-center items-center gap-2">
+            <div class="flex w-full bg-white/60 justify-evenly items-center sm:rounded-r-full py-2 gap-4 shadow-lg">
+                <a href="https://facebook.com/vatihdigitalprinting" target="_blank" class="w-full flex justify-center items-center gap-1 text-orange-900 hover:text-sky-800 duration-300">
+                    <i class="bi-facebook text-3xl sm:text-lg"></i>
+                    <span class="hidden sm:flex">Vatih Digital Printing</span>
+                </a>
+                <a href="https://instagram.com/vatih2675" target="_blank" class="w-full flex justify-center items-center gap-1 text-orange-900 hover:text-sky-800 duration-300">
+                    <i class="bi-instagram text-3xl sm:text-lg"></i>
+                    <span class="hidden sm:flex">Vatih Digital Printing</span>
+                </a>
+                <a href="https://tiktok.com/@vatih2675" target="_blank" class="w-full flex justify-center items-center gap-1 text-orange-900 hover:text-sky-800 duration-300">
+                    <i class="bi-tiktok text-3xl sm:text-lg"></i>
+                    <span class="hidden sm:flex">Vatih Digital Printing</span>
+                </a>
+                <a href="https://lynk.id/vatihofficial" target="_blank" class="w-full flex justify-center items-center gap-1 text-orange-900 hover:text-sky-800 duration-300">
+                    <i class="bi-app-indicator text-3xl sm:text-lg"></i>
+                    <span class="hidden sm:flex">Vatih Digital Printing</span>
+                </a>
+            </div>
+            <a href="https://wa.me/message/DLRPWPFGCTXOD1" target="_blank" class="flex justify-center items-center w-fit py-1 sm:py-4 pl-3 sm:pl-6 pr-2 sm:pr-4 bg-orange-400 rounded-l-full rounded-r-full sm:rounded-r-none gap-2 font-bold text-xl shadow-lg hover:bg-green-900 hover:text-white duration-300">
+                <i class="bi-whatsapp text-xl sm:text-2xl"></i>
+                <span class="text-sm sm:text-base">085175178456</span>
+            </a>
+        </section>
+
+        <div class="absolute hidden justify-center items-center w-full h-screen fixed top-0 right-0 bg-white/60 cursor-default">
+            <div class="w-4/12 h-fit bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="flex justify-between items-center bg-white w-full py-2 px-4 shadow">
+                    <h1 class="font-bold text-gray-800">Nama</h1>
+                    <i class="bi-x-lg text-gray-500 hover:text-red-500 duration-300 cursor-pointer" id="closeModal"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCRIPT START -->
+         <script src="assets/js/script.js"></script>
+        <!-- SCRIPT END -->
+    </body>
 </html>
