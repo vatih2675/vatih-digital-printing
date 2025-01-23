@@ -12,7 +12,7 @@
   <li>Jilid Dokumen</li>
   <li>Meterai (Tempel / Elektronik)</li>
 </ul>
-<br>
+
 <h4>Layanan Lain :</h4>
 <ul>
   <li>Desain Poster / Spanduk / Baliho / dll</li>
@@ -22,4 +22,11 @@
   <li>Pembuatan QRIS & EDC</li>
   <li>ATK</li>
 </ul>
+
+<h4>Kontak :</h4>
+<a href="https://wa.me/message/DLRPWPFGCTXOD1" target="_blank">WhatsApp</a>
+<a href="https://facebook.com/vatihdigitalprinting" target="_blank">Facebook</a>
+<a href="https://instagram.com/vatih2675" target="_blank">Instagram</a>
+<a href="https://tiktok.com/@vatih2675" target="_blank">Tiktok</a>
+<a href="https://lynk.id/vatihofficial" target="_blank">Lynk ID</a>
 <img src="assets/img/Flyer.png"/>
