@@ -1,7 +1,7 @@
 <h1>VATIH Digital Printing</h1>
 <h3>Official Website</h3>
 <hr>
-<h6>Melayani :</h6>
+<h4>Melayani :</h4>
 <ol>
   <li>Cetak Dokumen (Warna / Hitam Putih)</li>
   <li>Cetak Foto / Pasfoto</li>
@@ -13,7 +13,7 @@
   <li>Meterai (Tempel / Elektronik)</li>
 </ol>
 <br>
-<h6>Layanan Lain :</h6>
+<h4>Layanan Lain :</h4>
 <ol>
   <li>Desain Poster / Spanduk / Baliho / dll</li>
   <li>Pembuatan Website / Web Aplikasi</li>
