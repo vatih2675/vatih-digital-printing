@@ -32,4 +32,4 @@
   <li><a href="https://lynk.id/vatihofficial" target="_blank">Lynk ID</a></li>
 </ul>
 
-<img src="assets/img/Flyer.png"/>
+Original Template Website By <a href="https://github.com/javascriptmastery" target="_blank">Javascript Mastery</a>
